@@ -12,6 +12,14 @@ function App() {
 
       </div>
       <div className="app__videos">
+        <VideoCard 
+          channel="Channel"
+          avatarSrc='me.jpg'
+          song='songOK'
+          url='mixkit-woman-in-an-amusement-park-2818.mp4'
+          likes={103}
+          shares={40}
+        />
         <VideoCard />
       </div>
     </div>
